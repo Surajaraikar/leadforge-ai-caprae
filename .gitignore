@@ -1,0 +1,31 @@
+# JavaScript
+frontend/node_modules/
+tools/video/node_modules/
+frontend/.next/
+frontend/out/
+
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/*.egg-info/
+backend/.pytest_cache/
+backend/.mypy_cache/
+*.py[cod]
+
+# Local runtime data and secrets
+backend/data/*.db
+backend/.env
+frontend/.env*.local
+frontend/*.tsbuildinfo
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Video recording intermediates (final MP4 is retained)
+tools/video/raw/
+submission/video/*.webm
+submission/video/*.wav
+submission/video/*.mp3
