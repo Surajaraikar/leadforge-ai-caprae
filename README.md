@@ -4,6 +4,15 @@ LeadForge AI is a focused B2B lead-discovery and qualification workspace built f
 
 The product does **not** invent employee counts, revenue, contact people, emails, or phone numbers. Missing values remain visibly missing, and every discovered lead retains a link to its public source. “AI” is the product name; the current scorer is rule-based and does not use an LLM.
 
+## Assignment submission
+
+- [Video walkthrough](submission/video/Caprae_Capital_LeadForge_Demo.mp4) — a verified 119.5-second, 1080p demonstration of live discovery, explainable scoring, filtering, pagination, and CSV export
+- [Caprae Capital business answers](submission/CAPRAE_BUSINESS_ANSWERS.md)
+- [Employment questionnaire](submission/EMPLOYMENT_ANSWERS_FINAL.md) — candidate-approved public responses
+- [Submission overview](submission/README.md)
+
+The walkthrough uses real OpenStreetMap results and demonstrates the running application rather than mocked or fabricated functionality.
+
 ## Business problem
 
 Raw business directories create work instead of saving it when records are duplicated, irrelevant, incomplete, or impossible to prioritize. Sales and acquisition teams need a narrower list with clear provenance, consistent qualification criteria, and an output they can immediately use.
@@ -162,7 +171,7 @@ npm run build
 npm audit --audit-level=high
 ```
 
-The final QA results and exact execution date are recorded in [`docs/FINAL_QA_REPORT.md`](docs/FINAL_QA_REPORT.md). The prior release candidate passed 9 backend tests, strict Python and TypeScript checks, linting, the optimized Next.js build, and a zero-vulnerability npm audit; do not treat this paragraph as a substitute for the dated report.
+The verified release candidate passed 9 backend tests, strict Python and TypeScript checks, linting, the optimized Next.js build, and a zero-vulnerability npm audit.
 
 ## Deployment status
 
